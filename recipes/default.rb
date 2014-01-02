@@ -63,7 +63,7 @@ template "/usr/local/sbin/backupftp" do
   group "root"
   mode 0740
 
-  if Chef::Config[:solo]
+  if Chef::Config[:solo] and not node.recipes.include?("chef-solo-search")
     variables(
       node["backup2l"].merge(
         node["backup2l"]["credentials"]
