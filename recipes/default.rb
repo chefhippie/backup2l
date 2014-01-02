@@ -74,7 +74,7 @@ template "/usr/local/sbin/backupftp" do
       node["backup2l"].merge(
         search(
           node["backup2l"]["data_bag"],
-          "fqd:#{node["fqdn"]} OR id:default"
+          "fqdn:#{node["fqdn"]} OR id:default"
         ).first.to_hash
       )
     )
