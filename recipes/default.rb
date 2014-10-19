@@ -2,7 +2,7 @@
 # Cookbook Name:: backup2l
 # Recipe:: default
 #
-# Copyright 2013, Thomas Boerger Programmierung
+# Copyright 2013-2014, Thomas Boerger <thomas@webhippie.de> Programmierung
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
