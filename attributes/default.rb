@@ -30,7 +30,7 @@ default["backup2l"]["sources"] = %w(
 )
 
 default["backup2l"]["config_file"] = "/etc/backup2l.conf"
-default["backup2l"]["system_cron"] = "/etc/cron.daily/zz-backup2l"
+default["backup2l"]["system_cron"] = "/etc/cron.daily/backup2l"
 default["backup2l"]["target"] = "/var/backup.d/final"
 default["backup2l"]["skip"] = "-false"
 default["backup2l"]["max_level"] = 4
